@@ -115,7 +115,7 @@ proxies:
     headers:
       host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: None_vmess_41
+- name: United States_vmess_41
   type: vmess
   server: cm.dongtaiwang3.com
   port: 443
@@ -241,10 +241,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_hy2_0
+- name: France_hy2_0
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 62.210.101.0
+  port: 52465
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -299,7 +299,7 @@ proxy-groups:
   - United States_ss_11
   - United States_vless_21
   - France_vless_31
-  - None_vmess_41
+  - United States_vmess_41
   - Canada_vmess_51
   - Taiwan_hysteria_61
   - France_hysteria2_71
@@ -309,7 +309,7 @@ proxy-groups:
   - United States_hy_1
   - United States_hy_2
   - United States_hy_3
-  - United States_hy2_0
+  - France_hy2_0
   - United States_hy2_1
   - United States_hy2_2
   - United States_hy2_3
@@ -321,7 +321,7 @@ proxy-groups:
   - United States_ss_11
   - United States_vless_21
   - France_vless_31
-  - None_vmess_41
+  - United States_vmess_41
   - Canada_vmess_51
   - Taiwan_hysteria_61
   - France_hysteria2_71
@@ -331,7 +331,7 @@ proxy-groups:
   - United States_hy_1
   - United States_hy_2
   - United States_hy_3
-  - United States_hy2_0
+  - France_hy2_0
   - United States_hy2_1
   - United States_hy2_2
   - United States_hy2_3
@@ -343,7 +343,7 @@ proxy-groups:
   - United States_ss_11
   - United States_vless_21
   - France_vless_31
-  - None_vmess_41
+  - United States_vmess_41
   - Canada_vmess_51
   - Taiwan_hysteria_61
   - France_hysteria2_71
@@ -353,7 +353,7 @@ proxy-groups:
   - United States_hy_1
   - United States_hy_2
   - United States_hy_3
-  - United States_hy2_0
+  - France_hy2_0
   - United States_hy2_1
   - United States_hy2_2
   - United States_hy2_3
