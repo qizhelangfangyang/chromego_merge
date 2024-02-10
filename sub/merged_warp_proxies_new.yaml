@@ -43,7 +43,7 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: None_vmess_01
+- name: United States_vmess_01
   type: vmess
   server: www.darkroom.lol
   port: 8080
@@ -299,7 +299,7 @@ proxies:
   port: 12345
   password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
-- name: United States_vmess_31
+- name: None_vmess_31
   type: vmess
   server: www.darkroom.lol
   port: 8080
@@ -2283,7 +2283,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - None_vmess_01
+  - United States_vmess_01
   - United States_vmess_02
   - United Kingdom_ss_03
   - None_vmess_04
@@ -2311,7 +2311,7 @@ proxy-groups:
   - United States_ss_27
   - United States_ss_28
   - Taiwan_ss_29
-  - United States_vmess_31
+  - None_vmess_31
   - China_vmess_32
   - China_ss_33
   - None_vmess_34
@@ -2483,7 +2483,7 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - None_vmess_01
+  - United States_vmess_01
   - United States_vmess_02
   - United Kingdom_ss_03
   - None_vmess_04
@@ -2511,7 +2511,7 @@ proxy-groups:
   - United States_ss_27
   - United States_ss_28
   - Taiwan_ss_29
-  - United States_vmess_31
+  - None_vmess_31
   - China_vmess_32
   - China_ss_33
   - None_vmess_34
@@ -2683,7 +2683,7 @@ proxy-groups:
 - name: 负载均衡
   type: load-balance
   proxies:
-  - None_vmess_01
+  - United States_vmess_01
   - United States_vmess_02
   - United Kingdom_ss_03
   - None_vmess_04
@@ -2711,7 +2711,7 @@ proxy-groups:
   - United States_ss_27
   - United States_ss_28
   - Taiwan_ss_29
-  - United States_vmess_31
+  - None_vmess_31
   - China_vmess_32
   - China_ss_33
   - None_vmess_34
